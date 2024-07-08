@@ -11,7 +11,7 @@
             <form action="{{route('links.destroy',$link)}}" method="post">
                 @csrf
                 @method('DELETE')
-                <button type="submit">Eliminar Post</button>
+                <button type="submit">Eliminar Link</button>
             </form>
             <a href="{{route('links.index')}}">Volver a links</a>
 
